@@ -1,0 +1,11 @@
+body{margin:0;font-family:system-ui;background:#0b0c10;color:#eef2ff}
+.lock{position:fixed;inset:0;background:#0b0c10;display:flex;align-items:center;justify-content:center;z-index:9999}
+.lockBox{background:#11131a;padding:30px;border-radius:16px;border:1px solid #222638;width:90%;max-width:360px;text-align:center}
+.lockBox input{width:100%;padding:12px;margin:10px 0;border-radius:12px;border:1px solid #222638;background:#0f1220;color:white}
+.lockBox button{width:100%;padding:12px;border-radius:12px;border:none;background:#7dd3fc;font-weight:600;cursor:pointer}
+.lockBox p{color:#a9b0be;font-size:14px}
+#pwError{color:#f87171;display:none}
+.header{padding:16px;border-bottom:1px solid #222638}
+.main{padding:16px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{background:#11131a;border:1px solid #222638;border-radius:16px;padding:12px}
